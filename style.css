@@ -60,3 +60,46 @@ body{
     background-color: #fff;
     color: #000;
 }
+#content{
+    width: 100%;
+    height: calc(100% - 120px);
+    background-color: #ddd;
+    padding-top: 70px;
+}
+#content h3{
+    background-color: #F2B0EA;
+    padding: 8px 16px;
+    width: fit-content;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+    font-weight: 500;
+    /* user-select: none; */
+}
+#content h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    padding: 12px 0;
+}
+#content h4{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#content button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
